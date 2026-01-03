@@ -16,7 +16,7 @@ with open('Switches_Conf_files.txt', 'w') as f:
     type_=['Realtek 8139 Ethernet(rtl8139)','Realtek 8139 Ethernet(rtl8139)', 'Realtek 8139 Ethernet(rtl8139)', 'Realtek 8139 Ethernet(rtl8139)']
     rep_net_con=[True, True, True, True]
 
-    print('#Switches\n')
+    print('#SWITCHES\n')
 
     print('\n#General Settings\n')
 

@@ -1,0 +1,63 @@
+#Switches
+
+
+#General Settings
+
+Name:  IT_Network
+Ram:  512MB
+vCPU:  1
+Console type:  telnet
+On close:  power off the VM
+ 
+
+Name:  MGMT_network
+Ram:  512MB
+vCPU:  1
+Console type:  telnet
+On close:  power off the VM
+ 
+
+Name:  ACCT_network
+Ram:  512MB
+vCPU:  1
+Console type:  telnet
+On close:  power off the VM
+ 
+
+Name:  USER_network
+Ram:  512MB
+vCPU:  1
+Console type:  telnet
+On close:  power off the VM
+ 
+
+#Network Settings
+
+name:  IT_Network
+Adapters:  13
+Base MAC:  0c:1c:b2:85:00:00
+Type:  Realtek 8139 Ethernet(rtl8139)
+Replicate network connection states in QEMU:  True
+ 
+
+name:  MGMT_network
+Adapters:  13
+Base MAC:  0c:cc:78:5d:00:00
+Type:  Realtek 8139 Ethernet(rtl8139)
+Replicate network connection states in QEMU:  True
+ 
+
+name:  ACCT_network
+Adapters:  13
+Base MAC:  0c:40:34:07:00:00
+Type:  Realtek 8139 Ethernet(rtl8139)
+Replicate network connection states in QEMU:  True
+ 
+
+name:  USER_network
+Adapters:  13
+Base MAC:  0c:e0:f2:0b:00:00
+Type:  Realtek 8139 Ethernet(rtl8139)
+Replicate network connection states in QEMU:  True
+ 
+

@@ -1,4 +1,4 @@
-#Switches
+#SWITCHES
 
 
 #General Settings
